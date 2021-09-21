@@ -6,10 +6,10 @@ app.get('/', (req, res) => {
     res.send('Hello world!!!')
 })
 app.get('/users', (req, res) => {
-    res.send('Nattamon Jaroensirisombat')
+    res.send('No user in the system')
 })
 
 app.listen(port, () => {
-    console.log('No user in the system')
+    console.log('The app is up and running!')
 })
 module.exports = app

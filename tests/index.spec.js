@@ -8,7 +8,7 @@ describe('GET /', () => {
 })
 
 describe('GET /users', () => {
-    it('responds with "Nattamon Jaroensirisombat"', (done) => {
-        request(app).get('/users').expect('Nattamon Jaroensirisombat', done)
+    it('responds with "No user in the system"', (done) => {
+        request(app).get('/users').expect('No user in the system', done)
     })
 })
