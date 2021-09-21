@@ -1,7 +1,6 @@
 {
   "name": "app",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "mocha ./tests/* --exit",
@@ -18,5 +17,17 @@
   },
   "dependencies": {
     "express": "^4.17.1"
-  }
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nattamon61160217/github-action-exercise-02.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nattamon61160217/github-action-exercise-02/issues"
+  },
+  "homepage": "https://github.com/nattamon61160217/github-action-exercise-02#readme",
+  "description": ""
 }

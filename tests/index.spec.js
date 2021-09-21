@@ -7,8 +7,8 @@ describe('GET /', () => {
     })
 })
 
-describe('GET /user', () => {
+describe('GET /users', () => {
     it('responds with "Nattamon Jaroensirisombat"', (done) => {
-        request(app).get('/').expect('Nattamon Jaroensirisombat', done)
+        request(app).get('/users').expect('Nattamon Jaroensirisombat', done)
     })
 })
